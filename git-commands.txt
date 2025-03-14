@@ -3,4 +3,9 @@ git status
 git add<file>
 git commit -m "message"
 git restore<file>
-git --cached<file>.
+git --cached<file>
+git remote add origin git@github.com:wahab977/git-for-devops.git
+ git remote -v 
+ git remote set-url origin https:/wahab977/git-for-devops.git
+ git remote -v
+ git push origin master.
